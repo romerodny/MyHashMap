@@ -1,0 +1,5 @@
+Using two hash functions makes it so that an entry will added to the shorter of 
+the two lists. This in turn insures we will be keeping lists from getting too large,
+reducing the number of collisions. When using a single hash function, you don't get 
+the a chance to choose between two locations on the table, meaning collisions will be
+more frequent.
